@@ -28,6 +28,7 @@ if(!($_SESSION['idusuario']))
             {
             ?>
             <li><a href="../Controlador/controladorUsuario.php?listarUsuario"><i class="fas fa-address-card"></i>Usuarios</a></li>
+            <li><a href="Cliente.php?listarUsuario"><i class="fas fa-address-card"></i>Cliente</a></li>
             <li><a href="../Vista/listarproducto.php"><i class="fas fa-project-diagram"></i>Productos</a></li>
             <li><a href="#"><i class="fas fa-shopping-cart nav-icon"></i>Carrito</a></li>
             <li><a href="../Controlador/destruirsesion.php"><i class="fas fa-times-circle"></i>Cerrar Sesión</a></li>
